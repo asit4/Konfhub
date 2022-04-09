@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Konfhub/static/css/main.0c9f5e56.css",
+    "main.js": "/Konfhub/static/js/main.a35b6455.js",
+    "static/js/787.1028889a.chunk.js": "/Konfhub/static/js/787.1028889a.chunk.js",
+    "index.html": "/Konfhub/index.html",
+    "main.0c9f5e56.css.map": "/Konfhub/static/css/main.0c9f5e56.css.map",
+    "main.a35b6455.js.map": "/Konfhub/static/js/main.a35b6455.js.map",
+    "787.1028889a.chunk.js.map": "/Konfhub/static/js/787.1028889a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c9f5e56.css",
+    "static/js/main.a35b6455.js"
+  ]
+}
