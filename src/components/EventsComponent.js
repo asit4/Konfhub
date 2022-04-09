@@ -2,6 +2,7 @@ import { Box, Hidden } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { createTheme } from "@mui/material/styles";
 import React from "react";
+import SingIcon from "../../src/SingIcon.svg";
 
 const theme = createTheme({
   breakpoints: {
@@ -73,11 +74,7 @@ const EventsComponent = () => {
         </Box>
         <Hidden smDown>
           <Box width={"40%"} display={"flex"} justifyContent={"flex-end"}>
-            <img
-              src={"/SingIcon.svg"}
-              alt={"SingIcon"}
-              className={classes.singIcon}
-            />
+            <img src={SingIcon} alt={"SingIcon"} className={classes.singIcon} />
           </Box>
         </Hidden>
       </Box>

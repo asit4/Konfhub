@@ -5,10 +5,6 @@ import EventsComponent from "./components/EventsComponent";
 import SearchPastEventComponent from "./components/SearchPastEventComponent";
 import axios from "axios";
 import useDebounce from "./components/useDebounce";
-import Second from "../src/Logo_second.svg";
-import Stroke from "../src/Stroke.svg";
-import DangerCircle from "../src/DangerCircle.svg";
-import EventBackground from "../src/EventBackground.svg";
 
 function App() {
   const [isPastEvents, setIsPastEvents] = useState();
@@ -39,7 +35,7 @@ function App() {
   return (
     <Container maxWidth={"lg"}>
       <Box fontSize={72}>
-        <img src={Second} alt={"Logo"} />
+        <img src={"/Logo_second.svg"} alt={"Logo"} />
       </Box>
       <EventsComponent />
       <Box
@@ -81,7 +77,7 @@ function App() {
                 <Box
                   height={170}
                   sx={{
-                    backgroundImage: `url(${EventBackground})`,
+                    backgroundImage: `url(${"/EventBackground.svg"})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
@@ -102,7 +98,7 @@ function App() {
                   </Box>
                   <Box display={"flex"} justifyContent={"space-between"}>
                     <Box display={"flex"} alignItems={"flex-start"}>
-                      <img src={Stroke} alt={"Stroke"} />
+                      <img src={"/Stroke.svg"} alt={"Stroke"} />
                       <Box
                         ml={1}
                         fontFamily={"Prompt"}
@@ -116,7 +112,7 @@ function App() {
                       </Box>
                     </Box>
                     <Box display={"flex"} alignItems={"flex-start"}>
-                      <img src={DangerCircle} alt={"Stroke"} />
+                      <img src={"/DangerCircle.svg"} alt={"Stroke"} />
                       <Box
                         ml={1}
                         fontFamily={"Prompt"}

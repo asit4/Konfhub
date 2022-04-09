@@ -9,8 +9,6 @@ import {
   TextField,
 } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import SearchIcon from "../../src/SearchIcon.svg";
-import Arrow from "../../src/Arrow.svg";
 
 const theme = createTheme({
   breakpoints: {
@@ -81,7 +79,7 @@ const SearchPastEventComponent = ({
           <TextField
             className={classes.searchTextfield}
             InputProps={{
-              endAdornment: <img src={SearchIcon} alt={"Search"} />,
+              endAdornment: <img src={"/SearchIcon.svg"} alt={"Search"} />,
             }}
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
@@ -111,7 +109,7 @@ const SearchPastEventComponent = ({
               className={classes.select}
               IconComponent={() => (
                 <Box mr={2}>
-                  <img src={Arrow} alt={"DropDown Icon"} />
+                  <img src={"/Arrow.svg"} alt={"DropDown Icon"} />
                 </Box>
               )}
               label="Select Type"
