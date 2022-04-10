@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/Konfhub/static/css/main.0c9f5e56.css",
-    "main.js": "/Konfhub/static/js/main.a35b6455.js",
+    "main.js": "/Konfhub/static/js/main.00650606.js",
     "static/js/787.1028889a.chunk.js": "/Konfhub/static/js/787.1028889a.chunk.js",
+    "static/media/EventBackground.svg": "/Konfhub/static/media/EventBackground.7c439412f3dc498da8baa9fad5fec457.svg",
+    "static/media/SingIcon.svg": "/Konfhub/static/media/SingIcon.a8b0e421efe464facc20a1be68c341b6.svg",
+    "static/media/Logo_second.svg": "/Konfhub/static/media/Logo_second.05644e56ac05294fa8a554ffe00765ea.svg",
+    "static/media/SearchIcon.svg": "/Konfhub/static/media/SearchIcon.df84bc1dab5a007187d8ba1865950fe5.svg",
+    "static/media/Stroke.svg": "/Konfhub/static/media/Stroke.3e0ef30e277b88dda7ca94427afd21ae.svg",
     "index.html": "/Konfhub/index.html",
+    "static/media/DangerCircle.svg": "/Konfhub/static/media/DangerCircle.f8a84e0da91fcd85571da0c1c9805f1b.svg",
+    "static/media/Arrow.svg": "/Konfhub/static/media/Arrow.708b176287343bb878382b44fd53b0ba.svg",
     "main.0c9f5e56.css.map": "/Konfhub/static/css/main.0c9f5e56.css.map",
-    "main.a35b6455.js.map": "/Konfhub/static/js/main.a35b6455.js.map",
+    "main.00650606.js.map": "/Konfhub/static/js/main.00650606.js.map",
     "787.1028889a.chunk.js.map": "/Konfhub/static/js/787.1028889a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c9f5e56.css",
-    "static/js/main.a35b6455.js"
+    "static/js/main.00650606.js"
   ]
 }
